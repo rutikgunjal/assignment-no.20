@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-color: rgb(211, 228, 243);
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: #333333;
+    width: 250px;
+}
+
+.menu-items {
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
