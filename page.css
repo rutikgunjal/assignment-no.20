@@ -139,3 +139,27 @@ body {
         height: 50px;
     }
 }
+
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+    .sidebar {
+        background-color: #333333; /* Tablets Devices  */
+        width: 250px;
+        height: 1280px;
+    }
+
+    .product-cards {
+        background-color: rgb(236, 233, 233);
+        height: 400px;
+        width: 350px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .product-img {
+        border-radius: 10px 10px 0 0;
+        height: 200px;
+        width: 350px;
+    }
+}
