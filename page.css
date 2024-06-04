@@ -73,3 +73,6 @@ body {
     height: 200px;
 }
 
+.footer {
+    display: none;
+}
