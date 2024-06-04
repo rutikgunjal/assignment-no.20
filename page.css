@@ -76,3 +76,32 @@ body {
 .footer {
     display: none;
 }
+
+
+
+@media screen and (max-width: 600px) {    /* Small Devices  */
+
+    .container {
+        display: flex;
+        height: 1600px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .footer {
+        background-color: #333333;
+        height: 70px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+    }
+
+    .footer-img {
+        height: 50px;
+    }
+}
