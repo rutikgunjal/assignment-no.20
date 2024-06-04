@@ -24,3 +24,52 @@ body {
     text-decoration: none;
     color: black;
 }
+
+
+.active-menu {
+    background-color: rgb(183, 220, 252);
+}
+
+.menu-items:hover {
+    background-color: rgb(183, 220, 252);
+}
+
+.menu-img {
+    width: 30px;
+}
+
+.menu-text {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-cards {
+    background-color: rgb(236, 233, 233);
+    height: 300px;
+    width: 250px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.product-img {
+    border-radius: 10px 10px 0 0;
+    height: 100px;
+    width: 150px;
+}
+
+.product-text {
+    text-align: center;
+}
+
+.home {
+    width: 250px;
+    height: 200px;
+}
+
